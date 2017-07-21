@@ -1,0 +1,124 @@
+
+.doc-container {
+
+  width:100%;
+  font-family:Helvetica;
+  font-size:18px;
+
+}
+
+.logo {
+
+  height:140px;
+  margin-left:39%;
+  margin-right:42%;
+  margin-top:10%;
+
+}
+
+
+.search-bar-container {
+
+  position:absolute;
+  text-align: center;
+  left:44%;
+
+}
+
+
+.site-picker-container {
+
+  position:absolute;
+  left:22%;
+  bottom:71%;
+  height:10%;
+  padding:5px;
+
+}
+
+
+.pick-sites-here {
+
+  border: 2px solid #F7F7F7;
+  padding:15px;
+
+}
+
+#wikipedia-result {
+
+  width:760px;
+  padding: 15px;
+  margin-left:22%;
+  margin-top:5%;
+  border-left:2px solid #F7F7F7;
+  border-right:2px solid #F7F7F7;
+
+}
+
+
+#youtube-result {
+
+  width:760px;
+  padding: 15px;
+  margin-left:22%;
+  border-left:2px solid #F7F7F7;
+  border-right:2px solid #F7F7F7;
+
+}
+
+#reddit-result {
+
+  width:760px;
+  padding: 15px;
+  margin-left:22%;
+  border-left:2px solid #F7F7F7;
+  border-right:2px solid #F7F7F7;
+
+}
+
+
+#stackoverflow-result {
+
+  width:760px;
+  padding: 15px;
+  margin-left:22%;
+  border-left:2px solid #F7F7F7;
+  border-right:2px solid #F7F7F7;
+
+}
+
+
+#blogger-resut {
+
+  width:760px;
+  padding: 15px;
+  margin-left:22%;
+  border-left:2px solid #F7F7F7;
+  border-right:2px solid #F7F7F7;
+}
+
+
+#yahoo-answers-result {
+
+  width:760px;
+  padding: 15px;
+  margin-left:22%;
+  border-left:2px solid #F7F7F7;
+  border-right:2px solid #F7F7F7;
+
+}
+
+
+.footer-container {
+
+  font-size: 12px;
+  padding-left:1%;
+  padding-bottom:1%;
+  padding-top:0.5%;
+  position:fixed;
+  bottom:0;
+  background-color: ghostwhite;
+  width:100vw;
+  border-top: 1px lightgray;
+
+}

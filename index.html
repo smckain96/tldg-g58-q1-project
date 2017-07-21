@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TL;DG - A Mass Search Tool</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+
+</head>
+
+<body>
+  <div class="doc-container">
+    <div class="logo-container">
+      <img class="logo" src="http://i.imgur.com/fd08f0E.png" alt="TL;DG - A Multi-Search Tool For Lazy People"></img>
+    </div>
+    <br>
+    <div class="search-bar-container">
+      Search from selected websites:
+      <br>
+      <input type="text" class="search-bar"></input>
+      <button class="search-button">Search</button>
+    </div>
+    <div class="site-picker-container">
+      <div class="pick-sites-here">
+        <input type="checkbox" id="wikipedia"> Wikipedia</input>
+        <br>
+        <input type="checkbox" id="youtube"> YouTube</input>
+        <br>
+        <input type="checkbox" id="reddit"> Reddit</input>
+        <br>
+        <input type="checkbox" id="stackoverflow"> StackOverflow</input>
+        <br>
+        <input type="checkbox" id="blogger"> Blogger</input>
+        <br>
+        <input type="checkbox" id="yahoo-answers"> Yahoo Answers</input>
+      </div>
+    </div>
+
+    <div class="result" id="wikipedia-result"></div>
+    <div class="result" id="youtube-result"></div>
+    <div class="result" id="reddit-result"></div>
+    <div class="result" id="stackoverflow-result"></div>
+    <div class="result" id="blogger-result"></div>
+    <div class="result" id="yahoo-answers-result"></div>
+
+  </div>
+
+  <div class="footer-container">
+    <div class="footer">
+      © Sam McKain - 2017
+    </div>
+  </div>
+  </div>
+</body>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+<!-- <script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'M7lc1UVf-VE'
+    });
+  }
+</script> -->
+<script type="text/javascript" src="app.js"></script>
+
+</html>
